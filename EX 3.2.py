@@ -36,6 +36,7 @@ ax = fig.add_subplot(projection='3d')
 ax.scatter(ball_pts.iloc[:,0], ball_pts.iloc[:,1], ball_pts.iloc[:,2], color='green')
 ax.scatter(cube_pts.iloc[:,0], cube_pts.iloc[:,1], cube_pts.iloc[:,2], color='orange')
 ax.set_title(format(ball_pts.shape[0]/N * 100));
+print(circle_pts.shape[0]/N * 100)
 
 dim = np.arange(4,11,1)
 
